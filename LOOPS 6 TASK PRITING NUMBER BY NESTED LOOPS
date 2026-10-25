@@ -1,0 +1,66 @@
+a = int(input("ENTER YOUR NUMBER FOR STAR PRITING : "))
+for i in range(1,a+1):
+  for j in range(1,i+1):
+    print("* ",end="")
+  print()
+print("\n")
+print("TASK 2")
+print("ENTER YOUR NUMBER FOR STAR REVERSER PRINTING: ")
+b = int(input("PRINTING: "))
+print("\n")
+for i in range(b,0,-1):
+  for j in range(0,i):
+    print("* ",end="")
+  print()
+
+print("\n")
+print("TASK 3")
+
+print("ENTER YOUR FOR NUMBER PRITING ")
+c = int(input("PRITING : "))
+
+for i in range(1,c+1):
+  for j in range(1,i+1):
+    print(j,end="")
+  print()
+
+
+print("\n")
+print("TASK 4")
+
+print("ENTER YOUR FOR NUMBER REVESER ")
+c = int(input("PRITING : "))
+
+
+for i in range(c,0,-1):
+  for j in range(c,c-i,-1):
+    print(j,end="")
+  print()
+
+print("\n")
+print("TASK 5")
+
+print("ENTER YOUR FOR NUMBER PRITING ")
+f = int(input("PRITING : "))
+
+for i in range(1,f+1):
+  for j in range(1,i+1):
+    print(i,end="")
+  print()
+
+print("\n")
+print("TASK 6")
+
+print("ENTER YOUR FOR NUMBER REVESER ")
+g = int(input("PRITING : "))
+
+
+for i in range(g,0,-1):
+  for j in range(i,0,-1):
+    print(i,end="")
+  print()
+
+
+
+
+
